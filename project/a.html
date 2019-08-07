@@ -1,0 +1,230 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+ <meta charset="utf-8">      
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+  html, body {
+height:100%;
+margin:0;
+padding:0;
+}
+.carousel, .item, .active {
+height:100%;
+}
+.carousel-inner {
+height:100%;
+}
+.carousel {
+margin-bottom: 60px;
+}
+.carousel-caption {
+z-index: 10;
+
+}
+.carousel .item {
+background-color: #777;
+}
+.carousel .carousel-inner .bg {
+background-repeat:no-repeat;
+background-size:cover;
+}
+.carousel .carousel-inner .bg1 {
+background-image:url('resources/images/banner2.jpg');
+background-position: center top;
+}
+.carousel .carousel-inner .bg2 {
+background-image:url('resources/images/14.jpg');
+background-position: center center;
+}
+.carousel .carousel-inner .bg3 {
+background-image:url('resources/images/dress.jpeg');
+background-position: center bottom;
+}
+ body{
+    margin: 0;
+    padding: 0;
+    background: url(1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.login-box{
+    width: 320px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: left;
+    font-size: 22px;
+}
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000000;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box a:hover
+{
+    color: #39dc79;
+}
+  .login-box{
+    width: 320px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+
+ 
+  </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm  " id="nav" style="color:blue">
+  <div class="container-fluid">
+    <div class="col-md-4 logo_agile">
+	    <h1>
+		     <span style="color:red">S</span>mart
+		      <span style="color:red">S</span>hop
+		     
+		      
+	     </h1>
+    </div>
+    
+    <ul class="navbar-nav ml-auto">
+           <li class="nav-item">
+              <a class="nav-link" href="userIndex.jsp"><h4></h4></a>
+           </li>
+           <li class="nav-item">
+              <a class="nav-link" href="userRegistration.jsp"><h4></h4></a>
+           </li>
+         </ul>
+      
+  </div><!-- /.container-fluid -->
+</nav>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item bg bg1 active">
+        
+      </div>
+      <div class="item bg bg2 ">
+        
+      </div>
+      <div class="item bg bg3 ">
+        
+      </div>
+    </div>
+
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  
+            <div class="login-box">
+    <img src="mentor/3.png">
+        <h1>Login Here</h1>
+         <c:url var="validateUrl" value="/user/validate" />
+                     <form id="user_form" action="${validateUrl}" method="POST"class="well" name="myForm">
+          
+            <p style="color:#000000">Username</p>
+            <input type="text" name="username" placeholder="Enter Username">
+            <p style="color:#000000">Password</p>
+            <input type="password" name="password" placeholder="Enter Password">
+            <br>
+            <button id="confirm_user" type="submit" onclick="return validate()"class="btn btn-primary">Login</button>
+             <a href="userRegistration.jsp">       <button id="confirm_user1" type="button" class="btn btn-primary">Register</button>  </a>  
+            </form>
+ 
+        </div>
+  </div>
+</div>
+</body>
+</html>
